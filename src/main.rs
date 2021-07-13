@@ -117,6 +117,7 @@ impl GameState for State {
         }
     }
 }
+
 ///////////////////////////////////////////////////
 fn main() -> BError {
     let context = BTermBuilder::simple80x50()
